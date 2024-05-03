@@ -1,9 +1,45 @@
 * {
   box-sizing: border-box;
 }
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: top;
+}
 header {
   background-color: black;
   color: aliceblue;
   text-align: center;
   padding: 6px;
+  max-height: 100px;
+  width: 100%;
+}
+i {
+  font-size: 80px;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  background-color: black;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+nav a {
+  padding-right: 5px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.active {
+  background-color: #b5123d;
+  border-radius: 3px;
+}
+nav a:hover {
+  color: #49c8ad;
 }
