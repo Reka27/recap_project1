@@ -49,8 +49,7 @@ nav a:hover {
 }
 
 main {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding: 10%;
   display: flex;
   flex-flow: column nowrap;
   /*position: absolute;*/
@@ -60,6 +59,7 @@ main {
   row-gap: 10px;
 }
 section {
+  position: relative;
   background-color: antiquewhite;
   border-radius: 10px;
   padding: 40px;
@@ -68,6 +68,8 @@ section {
 }
 p {
   font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
 }
 button {
   background-color: #b5123d;
@@ -77,4 +79,13 @@ button {
   font-size: 16px;
   cursor: pointer;
   padding: 8px;
+}
+#bookmarkicon {
+  color: #19c127;
+  font-size: 40px;
+  /*position: absolute;*/
+  position: static;
+  left: 20;
+  /*z-index: 5;
+  top: 0;*/
 }
