@@ -83,9 +83,4 @@ button {
 #bookmarkicon {
   color: #19c127;
   font-size: 40px;
-  /*position: absolute;*/
-  position: static;
-  left: 20;
-  /*z-index: 5;
-  top: 0;*/
 }
