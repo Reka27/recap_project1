@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 6px;
+}
