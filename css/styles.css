@@ -84,3 +84,10 @@ button {
   color: #19c127;
   font-size: 40px;
 }
+img {
+  height: 150px;
+  width: 150px;
+}
+#Profile {
+  background-color: white;
+}
